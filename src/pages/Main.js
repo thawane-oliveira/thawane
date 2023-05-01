@@ -7,7 +7,7 @@ function Main() {
     <>
       <Header />
       <Home />
-      {/* <About /> */}
+      <About />
     </>
   )
 }
