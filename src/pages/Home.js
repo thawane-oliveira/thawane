@@ -12,7 +12,7 @@ function Home() {
           <div className='w-3/5 h-auto'>
             <h1 className='font-semibold text-3xl font-sans text-center text-purple-950'>Thawane Oliveira</h1>
             <h2 className='text-purple-950 pt-8 text-xl font-sans text-center'>Desenvolvedora Front-End</h2>
-            <h3 className='text-xl text-center mt-20'>Olá, boas-vindas ao meu portfólio. 😃</h3>
+            <h3 className='text-xl text-center mt-5'>Olá, boas-vindas ao meu portfólio. 😃</h3>
           </div>
         </div>
       </div>
