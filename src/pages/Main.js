@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import About from "./About";
 import Home from "./Home";
+import Projects from "./Projects";
 
 function Main() {
   return (
@@ -8,6 +9,7 @@ function Main() {
       <Header />
       <Home />
       <About />
+      <Projects />
     </>
   )
 }
