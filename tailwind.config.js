@@ -13,10 +13,14 @@ module.exports = {
         '13': '5rem',
       },
       height: {
-        '128': '50rem'
+        '1/10': '10%'
       },
       width: {
         '3/10': '30%'
+      },
+      colors: {
+        'newpink': '#f4acb7',
+        'lavender': '#9966CC'
       }
     },
   },

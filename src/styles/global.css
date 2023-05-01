@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-purple-300;
-  @apply text-red-950;
+  @apply bg-violet-300;
 }
