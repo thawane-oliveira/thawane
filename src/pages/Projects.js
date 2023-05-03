@@ -1,4 +1,3 @@
-import '../styles/global.css';
 import trivia from '../images/trivia.png';
 import wallet from '../images/wallet.png';
 import adopt from '../images/adopt-pets.png';
@@ -21,10 +20,10 @@ const link = [adoptLink, walletLink, triviaLink];
 
 function Projects() {
   return (
-    <div id="project" className='overflow-auto h-screen w-screen flex justify-center container mx-auto -mt-72'>
-      <div className='flex flex-col justify-around items-center bg-gradient-to-r from-violet-200 to-yellow-50 h-fit w-4/5 shadow-lg shadow-violet-400 py-4 px-6 mx-4 rounded-md'>
+    <div id="project" className='overflow-auto h-screen w-screen flex justify-center items-center container mx-auto my-auto'>
+      <div className='flex flex-col justify-between items-center bg-gradient-to-r from-violet-200 to-yellow-50 h-3/4 w-4/5 shadow-lg shadow-violet-400 py-4 px-6 mx-4 rounded-md'>
         <h1 className='text-3xl text-violet-900 font-semibold'>Projetos</h1>
-        <div className="carousel w-full mt-10">
+        <div className="carousel w-full">
           {
             images.map((it, index) => (
               <ProjectCard
