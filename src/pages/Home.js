@@ -1,8 +1,13 @@
 import avatar from '../images/avatar-bg.png';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import '../styles/global.css';
 
 function Home() {
   return (
-    <div id="home" className='h-screen w-screen overflow-auto flex items-center justify-center container mx-auto'>
+    <>
+    <div className='h-screen w-screen overflow-auto flex items-center flex-col justify-between container mx-auto'>
+    <Header />
       <div className='bg-gradient-to-r from-violet-200 to-yellow-50 h-2/4 w-4/5 shadow-lg shadow-violet-400 py-4 px-6 mx-4 rounded-md'>
         <div className='flex justify-around flex-row items-center w-full h-full'>
           <img className='w-3/10 rounded-full'
@@ -15,7 +20,9 @@ function Home() {
           </div>
         </div>
       </div>
+    <Footer />
     </div>
+    </>
   );
 }
 

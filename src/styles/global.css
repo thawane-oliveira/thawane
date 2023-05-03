@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-violet-300;
+  @apply bg-test;
 }
