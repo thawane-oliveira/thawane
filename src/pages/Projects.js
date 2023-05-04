@@ -10,6 +10,8 @@ import {
   triviaDescription,
   triviaLink
 } from '../components/ProjectDescription';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const images = [adopt, wallet, trivia];
 const projectName = ['Adote um Pet', 'Your Wallet', 'Trivia'];
@@ -20,7 +22,8 @@ const link = [adoptLink, walletLink, triviaLink];
 
 function Projects() {
   return (
-    <div id="project" className='overflow-auto h-screen w-screen flex justify-center items-center container mx-auto my-auto'>
+    <div className='h-screen w-screen overflow-auto flex items-center flex-col justify-between container mx-auto'>
+      <Header />
       <div className='flex flex-col justify-between items-center bg-gradient-to-r from-violet-200 to-yellow-50 h-3/4 w-4/5 shadow-lg shadow-violet-400 py-4 px-6 mx-4 rounded-md'>
         <h1 className='text-3xl text-violet-900 font-semibold'>Projetos</h1>
         <div className="carousel w-full">
@@ -35,6 +38,7 @@ function Projects() {
             ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
