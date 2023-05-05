@@ -9,7 +9,6 @@ const publicKey = process.env.REACT_APP_YOUR_PUBLIC_KEY;
 function Form() {
   const form = useRef();
   const [isSend, setIsSend] = useState(false);
-  // const [error, setError] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,7 +18,6 @@ function Form() {
         setIsSend(true);
         console.log(response);
       }, (error) => {
-        // setError(true);
         console.log(error);
       });
   };
