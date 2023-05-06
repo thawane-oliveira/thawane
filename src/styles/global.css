@@ -5,3 +5,14 @@
 body {
   @apply bg-test;
 }
+
+.bgrad {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(158, 138, 254), #FEF59C) 1;
+}
+
+input[type=submit]:disabled {
+  background-color: #d4bbfc;
+  cursor: not-allowed;
+}
