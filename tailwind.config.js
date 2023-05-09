@@ -18,7 +18,16 @@ module.exports = {
         'newpink': '#f4acb7',
         'lavender': '#9966CC',
         'test': '#E7E1FF'
-      }
+      },
+      screens: {
+        'xsm': '360px',
+        'hsm': '480px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        // 'xl': '1200px',
+        // 'print': {'raw': 'print'}
+      },
     },
   },
   plugins: [require("daisyui")],
