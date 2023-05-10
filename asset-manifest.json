@@ -1,24 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a6ef1e8.css",
-    "main.js": "/static/js/main.5e81d631.js",
-    "static/js/787.b7a36a0b.chunk.js": "/static/js/787.b7a36a0b.chunk.js",
+    "main.css": "/static/css/main.6d4855d9.css",
+    "main.js": "/static/js/main.540e80a2.js",
+    "static/js/787.28322442.chunk.js": "/static/js/787.28322442.chunk.js",
     "static/media/trivia.png": "/static/media/trivia.c93f02fae472086d6a72.png",
     "static/media/avatar-bg.png": "/static/media/avatar-bg.cdaab9e9af9fd1ee1bbb.png",
     "static/media/wallet.png": "/static/media/wallet.84df449762d38e928a7e.png",
     "static/media/adopt-pets.png": "/static/media/adopt-pets.8b35cb4d3bdaba4d6813.png",
     "static/media/github.png": "/static/media/github.f9b7fab6aa3c40e300a4.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.eb315f773fa702771e3c.png",
+    "static/media/node-js.png": "/static/media/node-js.e328955d6bbbf3ebc72b.png",
     "static/media/checkmark.png": "/static/media/checkmark.c0ac2f22cd77f0963515.png",
+    "static/media/mysql.png": "/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/react.png": "/static/media/react.0e64778defb4317853e1.png",
     "static/media/email.png": "/static/media/email.8c65a44d286f5af6dcef.png",
     "static/media/linkedin.png": "/static/media/linkedin.f21081ae6fcba8b56d62.png",
+    "static/media/jest.png": "/static/media/jest.144411391ff436ada3db.png",
+    "static/media/redux.png": "/static/media/redux.690bdefa487164ebbfb2.png",
+    "static/media/git.png": "/static/media/git.848d8eb4034119060c76.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/githublogo.png": "/static/media/githublogo.05f6c17b8cd04c28456f.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/docker.png": "/static/media/docker.e0ba9d2386737b9f87c6.png",
     "index.html": "/index.html",
-    "main.0a6ef1e8.css.map": "/static/css/main.0a6ef1e8.css.map",
-    "main.5e81d631.js.map": "/static/js/main.5e81d631.js.map",
-    "787.b7a36a0b.chunk.js.map": "/static/js/787.b7a36a0b.chunk.js.map"
+    "main.6d4855d9.css.map": "/static/css/main.6d4855d9.css.map",
+    "main.540e80a2.js.map": "/static/js/main.540e80a2.js.map",
+    "787.28322442.chunk.js.map": "/static/js/787.28322442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a6ef1e8.css",
-    "static/js/main.5e81d631.js"
+    "static/css/main.6d4855d9.css",
+    "static/js/main.540e80a2.js"
   ]
 }
